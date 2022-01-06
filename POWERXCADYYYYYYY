@@ -1,0 +1,45 @@
+        game.Players.LocalPlayer.Character.HumanoidRootPart.Size = Vector3.new(7,7,7)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.Material = "Neon"
+        game.Players.LocalPlayer.Character.HumanoidRootPart.Transparency = 0
+while true do 
+      wait(0.1) 
+      game:GetService('TweenService'):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,TweenInfo.new(1,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut),
+      {Color = Color3.fromRGB(255, 0, 0)}):Play() 
+      wait(.5)
+
+      game:GetService('TweenService'):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,TweenInfo.new(1,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut),
+      {Color = Color3.fromRGB(255, 155, 0)}):Play() 
+      wait(.5)
+
+      game:GetService('TweenService'):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,TweenInfo.new(1,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut),
+      {Color = Color3.fromRGB(255, 255, 0)}):Play() 
+      wait(.5)
+
+      game:GetService('TweenService'):Create(
+        game.Players.LocalPlayer.Characterr.HumanoidRootPart,TweenInfo.new(1,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut),
+      {Color = Color3.fromRGB(0, 255, 0)}):Play() 
+      wait(.5)
+
+      game:GetService('TweenService'):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,TweenInfo.new(1,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut),
+      {Color = Color3.fromRGB(0, 255, 255)}):Play() 
+      wait(.5)
+
+      game:GetService('TweenService'):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,TweenInfo.new(1,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut),
+      {Color = Color3.fromRGB(0, 155, 255)}):Play() 
+      wait(.5)
+
+      game:GetService('TweenService'):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,TweenInfo.new(1,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut),
+      {Color = Color3.fromRGB(255, 0, 255)}):Play() 
+      wait(.5)
+
+      game:GetService('TweenService'):Create(
+        game.Players.LocalPlayer.Character.HumanoidRootPart,TweenInfo.new(1,Enum.EasingStyle.Linear,Enum.EasingDirection.InOut),
+      {Color = Color3.fromRGB(255, 0, 155)}):Play() 
+      wait(.5)
+end 
